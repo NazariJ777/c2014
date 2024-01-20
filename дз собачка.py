@@ -9,11 +9,11 @@ class Dog:
         print('Lets go eat')
         self.gladness+=5
         self.go_to_the_toilet+=20
-        self.satiety+=70
+        self.satiety+=100
     def to_play(self):
         print('Lets go play')
         self.gladness+=10
-        self.satiety-=10
+        self.satiety-=5
         self.go_to_the_toilet+=20
     def to_sleep(self):
         print('Lets go sleep')
